@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "no-endermen-teleport",
+  "version": "1.0.0",
+  "name": "No Endermen Teleport",
+  "description": "Prevents endermen from teleporting under any conditions.",
+  "authors": ["Bruh_Banana"],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.example.NoEndermenTeleportMod"
+    ]
+  },
+  "mixins": [
+    "no-endermen-teleport.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "fabric": "*",
+    "minecraft": "1.16.1"
+  }
+}
+

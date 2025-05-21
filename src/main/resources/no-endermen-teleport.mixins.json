@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.example.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "EndermanEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+
